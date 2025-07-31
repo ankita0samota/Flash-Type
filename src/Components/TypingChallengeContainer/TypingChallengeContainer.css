@@ -1,0 +1,19 @@
+.typing-challenge-container{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.details-container{
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: red;
+}
+
+.typewriter-container{
+        display: flex;
+        flex-grow: 1;
+}
