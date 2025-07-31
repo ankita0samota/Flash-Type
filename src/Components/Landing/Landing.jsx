@@ -1,6 +1,9 @@
 import React from "react";
 import "./Landing.css";
 import flash from "./../../assests/hero.png";
+
+import Typewriter from "typewriter-effect";
+
 import Typewriter from "typewriter-effect";
 
 const Landing = () => {
@@ -12,6 +15,9 @@ const Landing = () => {
           <Typewriter
             options={{
               strings: ["Fast?", "Correct?", "Quick?"],
+
+              strings: ["Fast?", "Correct", "Quick"],
+
               autoStart: true,
               loop: true,
             }}

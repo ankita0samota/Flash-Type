@@ -9,3 +9,15 @@ body {
   flex-direction: column;
   background-color: #8fa9f2;
 }
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  background-color: #242a3b;
+}
